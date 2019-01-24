@@ -1,0 +1,23 @@
+.sidebar{
+	position: absolute;
+	text-align: center;
+	width: 250px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	padding: 33px 30px;
+	background: rgba(18, 18, 50, 0.15);
+	color: #121232;
+}
+.sidebar__title{
+	font-size: 18px;
+	margin-bottom: 82px;
+}
+.sidebar__nav-list{
+	li {
+		margin-bottom: 36px;
+	}
+}
+.nav-list__item{
+	font-size: 18px;
+}

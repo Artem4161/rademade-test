@@ -1,0 +1,28 @@
+.search{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 36px;
+}
+.search__input{
+	position: relative;
+	width: 448px;
+	height: 48px;
+	background: rgba(18, 18, 50, 0.05);
+	border-radius: 4px;
+	border: none;
+	font-size: 14px;
+	font-weight: normal;
+	color: #121232;
+	padding: 0 20px 0 45px;
+}
+.search__submit{
+	position: absolute;
+	top: 15px;
+	left: 19px;
+	width: 18px;
+	height: 18px;
+	background: url(../img/search.svg) 0 0 no-repeat;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}

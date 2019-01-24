@@ -1,0 +1,27 @@
+.filter__item{
+	position: relative;
+	margin-right: 24px;
+	cursor: pointer;
+}
+.filter-item__text{
+	font-size: 14px;
+	padding-left: 28px;
+}
+.filter-item__input{
+	display: none;
+}
+.filter-item__text:after{
+	position: absolute;
+	content: '';
+	top: 4px;
+    left: 2px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.filter-item__input:checked ~ .filter-item__text:after{
+  content: '';
+  background: #121232;
+}
